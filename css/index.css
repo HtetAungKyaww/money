@@ -1,0 +1,86 @@
+.background-color{
+    background-color: #fef7f1;
+}
+
+h1{
+    font-family: 'Fleur De Leah', cursive;
+}
+a,h2,h3,p,button,h4,label{
+    font-family: 'Saira', sans-serif;
+}
+
+.about-coin{
+    background-color: #f7484e;
+}
+
+.forCenter{
+    padding-top: 50%;
+    padding-bottom: 20%;
+}
+
+.slash ul li::after{
+    content: "/";
+    padding: 0 10px 0 6px;
+}
+
+.forParagraphJustify{
+    text-align: justify;
+}
+
+.video{
+    position: absolute;
+}
+
+.video > aa{
+    position: absolute;
+}
+
+.pricingTable{
+    background-color: #fff;
+}
+
+.forPriceMargin{
+    margin-left: 20%;
+}
+
+.contactUs{
+    background-color: #262626;
+}
+
+.googlemap{
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+}
+
+.formColor{
+    border-color: #262626;
+}
+
+/* custom input active color */
+.form-outline .form-control:focus~.form-notch .form-notch-leading {
+    border-top: .125rem solid #262626;
+    border-bottom: .125rem solid #262626;
+    border-left: .125rem solid #262626;
+  }
+  .form-outline .form-control:focus~.form-notch .form-notch-middle {
+    border-bottom: .125rem solid;
+    border-color: #262626;
+  }
+  
+  .form-outline .form-control:focus~.form-notch .form-notch-trailing {
+    border-color: currentcolor currentcolor currentcolor #262626;
+    border-bottom: .125rem solid #262626;
+    border-right: .125rem solid #262626;
+    border-top: .125rem solid #262626;
+  }
+  
+  .form-outline .form-control:focus~.form-label {
+    color: grey;
+  }
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  border-color: #fff;
+}
+
